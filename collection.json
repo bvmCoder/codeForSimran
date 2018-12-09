@@ -1,0 +1,299 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca01"),
+    "sector" : "AP",
+    "sub_sector" : "",
+    "sector_display_name" : "Airports",
+    "sub_sector_display_name" : "Airports",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca02"),
+    "sector" : "HC",
+    "sub_sector" : "",
+    "sector_display_name" : "HealthCare",
+    "sub_sector_display_name" : "Health Care",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca03"),
+    "sector" : "HE",
+    "sub_sector" : "K12",
+    "sector_display_name" : "Higher Education",
+    "sub_sector_display_name" : "Private K-12",
+    "display_order" : 2,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca04"),
+    "sector" : "HE",
+    "sub_sector" : "PUB",
+    "sector_display_name" : "Higher Education",
+    "sub_sector_display_name" : "Public Universities",
+    "display_order" : 1,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca05"),
+    "sector" : "HE",
+    "sub_sector" : "PVT",
+    "sector_display_name" : "Higher Education",
+    "sub_sector_display_name" : "Private Universities",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca06"),
+    "sector" : "HS",
+    "sub_sector" : "CM",
+    "sector_display_name" : "Housing",
+    "sub_sector_display_name" : "State HFA combined results",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca07"),
+    "sector" : "HS",
+    "sub_sector" : "SFP",
+    "sector_display_name" : "Housing",
+    "sub_sector_display_name" : "State HFA Single Family Program",
+    "display_order" : 1,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 1,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca08"),
+    "sector" : "LG",
+    "sub_sector" : "CCD",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "Community College",
+    "display_order" : 3,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca09"),
+    "sector" : "LG",
+    "sub_sector" : "CIT",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "City",
+    "display_order" : 0,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0a"),
+    "sector" : "LG",
+    "sub_sector" : "CNT",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "County",
+    "display_order" : 1,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0b"),
+    "sector" : "LG",
+    "sub_sector" : "OSD",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "Other Special District",
+    "display_order" : 4,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0c"),
+    "sector" : "LG",
+    "sub_sector" : "PRD",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "Parks and Recreation District",
+    "display_order" : 5,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0d"),
+    "sector" : "LG",
+    "sub_sector" : "SD",
+    "sector_display_name" : "Local Governments",
+    "sub_sector_display_name" : "School District",
+    "display_order" : 2,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 1,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0e"),
+    "sector" : "NP",
+    "sub_sector" : "",
+    "sector_display_name" : "Not-For-Profit",
+    "sub_sector_display_name" : "Not-For-Profit",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca0f"),
+    "sector" : "PP",
+    "sub_sector" : "",
+    "sector_display_name" : "Public Power",
+    "sub_sector_display_name" : "Public Power",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca10"),
+    "sector" : "PT",
+    "sub_sector" : "",
+    "sector_display_name" : "Ports",
+    "sub_sector_display_name" : "Ports",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca11"),
+    "sector" : "ST",
+    "sub_sector" : "",
+    "sector_display_name" : "States",
+    "sub_sector_display_name" : "States",
+    "display_order" : 0,
+    "rating_type" : "TAXBACK",
+    "financial_mask" : 3,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca12"),
+    "sector" : "TF",
+    "sub_sector" : "",
+    "sector_display_name" : "Toll Facilities",
+    "sub_sector_display_name" : "Toll Facilities",
+    "display_order" : 0,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca13"),
+    "sector" : "WS",
+    "sub_sector" : "SR",
+    "sector_display_name" : "Water and Sewer",
+    "sub_sector_display_name" : "Sewer",
+    "display_order" : 2,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca14"),
+    "sector" : "WS",
+    "sub_sector" : "W&S",
+    "sector_display_name" : "Water and Sewer",
+    "sub_sector_display_name" : "Water & Sewer",
+    "display_order" : 3,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5ada3b4fe4b06b8e8e14ca15"),
+    "sector" : "WS",
+    "sub_sector" : "WR",
+    "sector_display_name" : "Water and Sewer",
+    "sub_sector_display_name" : "Water",
+    "display_order" : 1,
+    "rating_type" : "REVENUE",
+    "financial_mask" : 3,
+    "application_mask" : 3,
+    "mqra_single_select_model" : 1,
+    "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
+}
