@@ -297,3 +297,10 @@
     "mqra_single_select_model" : 1,
     "last_updated_dt" : ISODate("2018-01-19T20:39:27.000Z")
 }
+
+
+"MongoDb": {
+    "ConnectionString": "mongodb://admin:admin@localhost:27017",
+    "CollectionName": "mfra_sectors"
+  },
+  "AllowedHosts": "*"
