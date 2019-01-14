@@ -47,3 +47,22 @@
 	}
 
 </script>
+
+
+    const years = [];
+    let theYear = -1;
+    for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data[i].children.length; j++) {
+            for (let k = 0; k < data[i].children[j].values.length; k++) {
+                theYear = data[i].children[j].values[k].year;
+                if (years.indexOf(theYear) < 0) {
+                    years.push(theYear);
+                }
+            }
+        }
+    }
+    // sort in descending order
+    years.sort((a, b) => {
+        return (b - a);
+    });
+    return years;
