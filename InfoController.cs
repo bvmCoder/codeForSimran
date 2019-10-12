@@ -23,3 +23,14 @@ namespace Api.Controllers
         }
     }
 }
+
+
+var queryResult = await mongoQueryExecuter.ExecutQueryAsync<HtmlPdfDocument>(nativeQuery, queryOption);
+List<string> invalidResults = new List<string>();
+if (queryResult.Records.Count > 0)
+{
+    var tempResults = queryResult.Records as List<HtmlPdfDocument>;
+    tempResults.ForEach(res => invalidResults.Add(res.DocumentId));
+}
+
+return invalidResults;
